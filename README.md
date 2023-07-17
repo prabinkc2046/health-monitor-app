@@ -44,7 +44,7 @@ git clone https://github.com/your-username/health-monitor-app.git
 cd health-monitor-app
 ```
 
-3. running following commands step by step
+3. Running following commands step by step
 
 ```
 	docker network create test
@@ -63,5 +63,5 @@ cd health-monitor-app
 	docker logs -f mysql-host
 ```
 
-5. whenthe mysql-host container is fully up and ready, access at http://localhost:5000/monitor
+5. Whenthe mysql-host container is fully up and ready, access at http://localhost:5000/monitor
 
