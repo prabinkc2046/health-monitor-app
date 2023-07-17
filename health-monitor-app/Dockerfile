@@ -15,6 +15,4 @@ ENV DB_HOST="mysql-host"
 ENV DB_NAME="usage_data"
 
 EXPOSE 5000
-
-#ENTRYPOINT ["/bin/bash"]
 CMD ["python","fetch_result.py"]
