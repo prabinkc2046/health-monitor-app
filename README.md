@@ -63,7 +63,7 @@ cd health-monitor-app
 	docker logs -f mysql-host
 ```
 
-5. Whenthe mysql-host container is fully up and ready, access at http://localhost:5000/monitor
+5. When the mysql-host container is fully up and ready, access at http://localhost:5000/monitor
 
 You should see following:
 ![System Health Monitor graph](https://github.com/prabinkc2046/health-monitor-app/blob/main/Screenshot%20of%20monitor.png)
